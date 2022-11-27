@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my Number</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="navbarBodyHidden" class="gnmBodyHidden">
+      <header class="gmnHeader"></header>
+
+      <section class="gmnSection">
+        <div class="gnmProjetLinks">
+          <div class="indexLink">
+            <p>
+              <a href="../index.html">Page d'acceuil</a>
+            </p>
+          </div>
+          <div class="clockLink">
+            <a href="clock.html"> Horloge </a>
+          </div>
+          <div class="BBCsignInLink">
+            <a href="bbcsignin.html">BBC sign-in</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="gmnMainClass">
+        <div class="gnmTop">
+          <div class="gnmTopTop">
+            <div class="gnmAgainDiv">
+              <button class="gnmBtn gnmAgain">Again!</button>
+            </div>
+            <p>Between 1 and 20</p>
+          </div>
+          <div class="gnmTopBottom">
+            <h1 class="gnmH1">Guess my Number</h1>
+          </div>
+          <div class="gnmHrAndNumber">
+            <!-- <hr class="gnmhr" /> -->
+            <div class="gnmNumber">
+              <p class="gnmNumberP">?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gnmBottom">
+          <input type="number" class="gnmGuess" id="input" />
+          <button class="gnmBtn gnmCheck">Check !</button>
+
+          <div class="gnmGuessIndicator">
+            <p>Guess first Please</p>
+          </div>
+
+          <div class="gnmScore">
+            <p>💯 Score : <span class="jsScore">20</span></p>
+          </div>
+          <div class="gnmHighscore">
+            <p>🥇 Highscore:<span class="jsHighscore">0</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerDiv">
+        <div class="footerText">
+          <h2>Interessé par mon profil ?</h2>
+        </div>
+        <div class="linksDiv">
+          <div class="linkedinLink">
+            <p>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/jean-moreira-75a5a0163/
+              "
+              >
+                <img src="../img/linkedin.png" alt="linkedin logo" />
+              </a>
+            </p>
+          </div>
+          <div class="gitHubLink">
+            <p>
+              <a
+                target="_blank"
+                href="https://github.com/jean-moreira?tab=repositories"
+              >
+                <img src="../img/github.png" alt="github logo" />
+              </a>
+            </p>
+          </div>
+          <div class="mailLink">
+            <p>
+              <a href="mailto:moreirajean@outlook.fr">
+                <img src="../img/email.png" alt="email logo" />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/guessmynumber.js"></script>
+  </body>
+</html>
